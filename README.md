@@ -2,13 +2,15 @@
 PCB that I made with love and passion. 
 
 ## Schematic
-![Annotation 2025-06-08 221218](https://github.com/user-attachments/assets/bf37c67e-7868-4b82-9941-065d8b6f633d)
+![Annotation 2025-06-09 120847](https://github.com/user-attachments/assets/867c17bd-8be7-4219-a047-acc5bb0067ac)
 
 
 ## PCB
-![Annotation 2025-06-08 221131](https://github.com/user-attachments/assets/73fe3c1e-cbf9-4cc2-81d7-b2e2093e7f38)
-![Annotation 2025-06-08 221118](https://github.com/user-attachments/assets/d481272c-ecba-4103-9bee-b515dc07e063)
-![Annotation 2025-06-08 221150](https://github.com/user-attachments/assets/cf1f4fb1-7d15-4f3e-acac-93f891b4159a)
+![Annotation 2025-06-09 120912](https://github.com/user-attachments/assets/90b7a447-2817-4a2f-8f04-a382e599f46a)
+![nano1](https://github.com/user-attachments/assets/423d8762-6f55-4c71-b5c9-456308b027c2)
+![nano](https://github.com/user-attachments/assets/e93b73e6-ccad-497d-a739-eb9cedbd67ea)
+
+
 
 
 ## BOM
