@@ -1725,12 +1725,6 @@
 		(uuid "ba9ce9f0-c727-409a-899a-53932f85f526")
 	)
 	(junction
-		(at 121.92 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d8cbc9f5-412b-4387-83e7-9015bdf8e17a")
-	)
-	(junction
 		(at 135.89 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1738,7 +1732,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 101.6) (xy 121.92 104.14)
+			(xy 121.92 101.6) (xy 121.92 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1808,7 +1802,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 119.38) (xy 129.54 116.84)
+			(xy 129.54 119.38) (xy 129.54 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1838,13 +1832,23 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 119.38) (xy 129.54 119.38)
+			(xy 129.54 119.38) (xy 128.27 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "74c661b9-a1dd-471b-be1c-9983016556ce")
+	)
+	(wire
+		(pts
+			(xy 121.92 110.49) (xy 121.92 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bae7546-55a7-429b-bff8-26ab18dfc04c")
 	)
 	(wire
 		(pts
@@ -1878,7 +1882,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 121.92) (xy 121.92 135.89)
+			(xy 121.92 123.19) (xy 121.92 135.89)
 		)
 		(stroke
 			(width 0)
@@ -1955,16 +1959,6 @@
 			(type default)
 		)
 		(uuid "c3b5cd7d-5db7-4262-93b1-1ea4e065fa0c")
-	)
-	(wire
-		(pts
-			(xy 121.92 110.49) (xy 121.92 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1373464-8f24-46df-8ebf-66925866a2aa")
 	)
 	(wire
 		(pts
@@ -2061,80 +2055,6 @@
 			(project ""
 				(path "/063249a1-dd82-4aba-aeae-aae1f466d57b"
 					(reference "BT1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Sensor_Optical:BP103")
-		(at 124.46 116.84 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4809f82a-4632-4d58-a167-b9acbfccf07a")
-		(property "Reference" "Q1"
-			(at 119.38 116.3192 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BP103"
-			(at 119.38 118.8592 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-18-3_Lens"
-			(at 119.253 113.284 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.osram-os.com/Graphics/XPic3/00101777_0.pdf/BP"
-			(at 124.46 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "NPN Phototransistor"
-			(at 124.46 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cf71bf91-fcd4-4e55-8fd1-37a90ba4da34")
-		)
-		(pin "2"
-			(uuid "e5494c14-086b-48a1-9db0-d0639899415f")
-		)
-		(pin "3"
-			(uuid "b39da892-f2fa-4c3d-aa03-650d00fe4f6b")
-		)
-		(instances
-			(project ""
-				(path "/063249a1-dd82-4aba-aeae-aae1f466d57b"
-					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -2552,7 +2472,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Photo")
-		(at 121.92 107.95 0)
+		(at 121.92 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2561,7 +2481,7 @@
 		(fields_autoplaced yes)
 		(uuid "95e08869-39c0-412b-9106-5c30eeeb88b9")
 		(property "Reference" "R3"
-			(at 124.46 106.6799 0)
+			(at 124.46 105.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2570,7 +2490,7 @@
 			)
 		)
 		(property "Value" "R_Photo"
-			(at 124.46 109.2199 0)
+			(at 124.46 107.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2579,7 +2499,7 @@
 			)
 		)
 		(property "Footprint" "OptoDevice:R_LDR_5.1x4.3mm_P3.4mm_Vertical"
-			(at 123.19 114.3 90)
+			(at 123.19 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2589,7 +2509,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 121.92 109.22 0)
+			(at 121.92 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2598,7 +2518,7 @@
 			)
 		)
 		(property "Description" "Photoresistor"
-			(at 121.92 107.95 0)
+			(at 121.92 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2702,6 +2622,80 @@
 			(project "nano"
 				(path "/063249a1-dd82-4aba-aeae-aae1f466d57b"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Optical:BP103")
+		(at 124.46 118.11 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2c7e891-1cb7-445e-9949-11a3600393ab")
+		(property "Reference" "Q4"
+			(at 119.38 117.5892 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BP103"
+			(at 119.38 120.1292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-18-3_Lens"
+			(at 119.253 114.554 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.osram-os.com/Graphics/XPic3/00101777_0.pdf/BP"
+			(at 124.46 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "NPN Phototransistor"
+			(at 124.46 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "361d04f4-f0c3-49d0-ab80-6288f97e5403")
+		)
+		(pin "2"
+			(uuid "611e8c03-76b4-4292-9600-695b69e93657")
+		)
+		(pin "3"
+			(uuid "2da1a1ad-137e-489a-adfd-1fd28f392983")
+		)
+		(instances
+			(project "nano"
+				(path "/063249a1-dd82-4aba-aeae-aae1f466d57b"
+					(reference "Q4")
 					(unit 1)
 				)
 			)
